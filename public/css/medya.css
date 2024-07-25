@@ -1,0 +1,72 @@
+/* Section stil ayarları */
+#case-study-1 {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+/* Container stil ayarları */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Gallery layout stil ayarları */
+.gallery-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Layout cell stil ayarları */
+.w-layout-cell {
+    flex: 1;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+/* Görsellerin stili */
+.w-layout-cell img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+}
+
+/* Başlık stili */
+h3 {
+    font-size: 1.6em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Paragrafların liste şeklinde düzenlenmesi */
+p {
+    font-size: 1em;
+    color: #555;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Son paragrafın alt kenar boşluğunu kaldır */
+p:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Genel açıklama hücresi */
+.description-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Medya Queries */
+@media (max-width: 768px) {
+    .gallery-layout {
+        flex-direction: column;
+    }
+}

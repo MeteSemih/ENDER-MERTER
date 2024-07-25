@@ -1,0 +1,61 @@
+.contact-info-section {
+    padding: 60px 0;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #bdc3c7;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.contact-info .contact-item i {
+    font-size: 1.5rem;
+    color: #1abc9c;
+    margin-right: 10px;
+}
+
+.contact-info .contact-item div {
+    line-height: 1.5;
+}
+
+.contact-info .contact-item a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.contact-info .contact-item a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .contact-info .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-info .contact-item i {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,99 @@
+/* Başlık stilini güncelle */
+#portfolio-1 {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.title-large {
+    margin-top: 20px;
+    margin-bottom: 62px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left; /* Başlığı sola yasla */
+    padding-left: 0; /* Sol paddingi sıfırla */
+}
+
+/* Liste ve container stili */
+
+/* Liste stilini güncelle */
+#portfolio-list {
+    margin-top: 20px; /* Liste ile başlık arasına boşluk ekle */
+}
+
+/* Diğer CSS kodlarınız */
+.slide-up {
+    animation: slideUp 0.5s ease-out;
+}
+
+.slide-down {
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #444;
+    flex: 1 1 calc(33.33% - 30px);
+    box-sizing: border-box;
+    font-size: 1.1em;
+    font-family: 'Bodoni 72 Oldstyle', serif;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.show-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+    background-color: #0056b3;
+}

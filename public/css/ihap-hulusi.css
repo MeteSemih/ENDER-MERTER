@@ -1,0 +1,47 @@
+/* Genel stil ayarları */
+.w-layout-ihap {
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; /* Taşan içeriği gizle */
+}
+
+.w-layout-ihap > div {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+article {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    word-wrap: break-word; /* Uzun kelimeleri keser */
+}
+
+/* Responsive stil ayarları */
+@media (max-width: 768px) {
+    .w-layout-ihap {
+        padding: 15px;
+    }
+
+    article {
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 1.5em; /* Küçük ekranlarda font büyüklüğünü ayarlayın */
+    }
+}
+
+@media (max-width: 480px) {
+    .w-layout-ihap {
+        padding: 10px;
+    }
+
+    article {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 1.2em; /* Daha küçük ekranlarda font büyüklüğünü ayarlayın */
+    }
+}

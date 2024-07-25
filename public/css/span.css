@@ -1,0 +1,12 @@
+
+#gallery-wrapper  #w-node-f75f7a1f-702c-a43c-e5b1-518c2dabc8b0-039aea74 span {
+    color: red; /* Example: Change text color to red */
+    font-size: 1.2em; /* Example: Increase font size */
+    font-weight: bold; /* Example: Make the text bold */
+    margin-top: 10px; /* Example: Add top margin */
+}
+#gallery-wrapper  #w-node-f75f7a1f-702c-a43c-e5b1-518c2dabc8b0-039aea74 .highlight {
+    color: red; /* Example: Change text color to blue */
+    font-size: larger; /* Example: Increase font size */
+    font-style: italic; /* Example: Make the text italic */
+}
