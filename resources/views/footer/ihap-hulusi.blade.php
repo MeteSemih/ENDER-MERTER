@@ -1,18 +1,18 @@
-<section id="hero" class="section hero">
-    <div class="container" >
-        <div id="w-node-_1c3f5317-6978-f762-5d5e-11f9b38a1988-039aea74" class="w-layout-layout hero-layout wf-layout-layout">
+<section>
+    <div class="container"  id="ihap-hulusi">
+
             <div id="w-node-_1c3f5317-6978-f762-5d5e-11f9b38a1989-039aea74" class="w-layout-cell cell">
                 <div class="embed-logo w-embed">
                     <h1> İHAP HULUSİ GÖREY</h1>
                 </div>
             </div>
-            <!--İhlap Hulusi Akar -->
+            <!--İhlap Hulusi Görey -->
 
             <link rel="stylesheet" href="{{ asset('css/ihap-hulusi.css') }}">
             <div id="w-node-_9c45ac14-2f20-bee2-1046-42e8bb04c83c-039aea74" class="w-layout-ihap">
                 <div>
                     <article>
-                        <span style="color: yellow;font-size:large">Ahçı Gitti Tadı Hala Damakta...</span>
+                        <span style="color: black;font-size:large ; font-weight:bold" >Ahçı Gitti Tadı Hala Damakta...</span>
                         Neredeyse son nefesine kadar kalem tutan ve iş yapan İhap Hulusi, Picasso ya da Rodin kadar önemli bir sanatçıydı.
                         Doğumunun 100’üncü yılında (1998) yayınladığım “Müsellesten Üçgene” adlı kitabımda sizlere “niye İhap Hulusi” diye aklınıza bir soru gelebilir demiş ve açıklamıştım. Şimdi ise bu sorunun üzerinden geçen onsekiz yıl içinde gerçekleştirdiğim birçok etkinlik ve yayınladığım kitaplarla büyük üstadı anlatmaya, genç neslimize bir nebze de olsa ülkemizde de Cumhuriyet öncesi ve sonrasında yaşamış uluslar arası kariyere sahip büyük bir üstadı bir kez daha hatırlatmaya çalıştım.
                         O büyük üstad ki; şimdi iletişim dünyası dediğimiz 21. yüzyıla damgasını vuran en gözde sektörünün ilk renkli temsilcisi. O, aynı zamanda sanatçı ve psikolog, günlük yaşamın içinde yorgun düşmüş insanlara hitap eden, o sanat zevkini en derin manasıyla halk kitlelerine hissettiren bir mürebbidir.
@@ -30,7 +30,7 @@
                 </div>
 
             </div>
-            <div id="w-node-_0e444812-5834-3be4-ce4d-3f61c340088f-039aea74" class="w-layout-cell"><img src="{{asset('./images/endermerter.JPG')}}" loading="lazy" sizes="(max-width: 991px) 90vw, 792px" srcset="{{asset('images/endermerter.JPG')}} 500w,{{asset('images/endermerter.JPG')}} 792w" alt="Portrait of Japanese man on subway" class="image hero"></div>
+            <div id="w-node-_0e444812-5834-3be4-ce4d-3f61c340088f-039aea74" class="w-layout-cell"><img src="{{asset('./images/ihap_hulusi_görey.jpgg')}}" loading="lazy" sizes="(max-width: 991px) 90vw, 792px" srcset="{{asset('images/ihap_hulusi_görey.jpg')}} 500w,{{asset('images/ihap_hulusi_görey.jpg')}} 792w" alt="Portrait of Japanese man on subway" class="image hero"></div>
 
 
 

@@ -16,4 +16,5 @@
 <link href="{{asset('css/span.css')}}">
 <link href="{{asset('css/contact.css')}}">
 <link href="{{asset('css/medya.css')}}">
+<link href="{{asset('css/uyelık.css')}}">
 

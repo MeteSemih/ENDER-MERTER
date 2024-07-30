@@ -12,9 +12,6 @@
                         Konu ile ilgili sorularınız ve izin işlemleri için lütfen bizimle iletişime geçiniz.
 
                     </div>
-                    <a href="#" class="button light w-inline-block">
-                        <div class="u-d-inline-block">View case study</div>
-                    </a>
                 </div>
                 <div id="w-node-f75f7a1f-702c-a43c-e5b1-518c2dabc8b0-039aea74" class="image-cell"><img src="{{ asset('images/cizgidünyasi.jpg') }}" loading="lazy" sizes="90vw" srcset="{{ asset('images/cizgidünyasi.jpg') }} 500w, {{ asset('images/cizgidünyasi.jpg') }} 1080w, {{ asset('images/cizgidünyasi.jpg') }} 1560w" alt="Cizgi Dünyası" class="image">
                     <span class="highlight" >Çizgi Dünyasına Yolculuk</span>

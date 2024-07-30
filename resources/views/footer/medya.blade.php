@@ -1,15 +1,9 @@
 <section id="case-study-1" class="section">
     <div class="container">
-        <div class="gallery-layout">
-            <div class="w-layout-cell">
+        <div class="gallery-layout-media">
+            <div class="description-cell">
                 <h3>bi'oda | Ender Merter ile "Şimdi Reklamlar"</h3>
-                <div class="w-layout-cell">
-                    <h3>Ender Merter Medya</h3>
-                    <img src="{{asset('/images/medya_endermerter.jpg')}}" loading="lazy" sizes="90vw"
-                         srcset="{{asset('/images/medya_endermerter.jpg')}} 500w, {{asset('/images/medya_endermerter.jpg')}} 800w,{{asset('/images/medya_endermerter.jpg')}} 1080w, {{asset('/images/medya_endermerter.jpg')}} 1600w,{{asset('/images/medya_endermerter.jpg')}} 2000w, {{asset('/images/medya_endermerter.jpg')}} 2240w"
-                         alt="Cherry blossom flowering" class="image">
-
-                </div>
+                <h3>Ender Merter Medya</h3>
                 <p>İhap Hulusi Görey/Cumhuriyet Müzesi Ender Merter Afiş Koleksiyonu</p>
                 <p>Açıkhava Reklamcılığı Belgeseli "Konuşan Kent"</p>
                 <p>Reklamarkası 300. Program Özel Jingle-Klip</p>
@@ -20,9 +14,16 @@
                 <p>Galatasaray TV - Karınca Ezmez Şevki Anısına - Ender Merter</p>
                 <p>ODAK: Ender Merter</p>
             </div>
-
-
-
+            <div class="w-layout-cell-media">
+                <div class="image-container">
+                    <img src="{{asset('/images/müze açılış.jpg')}}" loading="lazy"
+                         srcset="{{asset('/images/müze açılış.jpg')}} 500w, {{asset('/images/müze açılış.jpg')}} 800w, {{asset('/images/müze açılış.jpg')}} 1080w, {{asset('/images/müze açılış.jpg')}} 1600w, {{asset('/images/müze açılış.jpg')}} 2000w, {{asset('/images/müze açılış.jpg')}} 2240w"
+                         alt="Cherry blossom flowering" class="image">
+                    <img src="{{asset('/images/müze kopyası.jpg')}}" loading="lazy"
+                         srcset="{{asset('/images/müze kopyası.jpg')}} 500w, {{asset('/images/müze kopyası.jpg')}} 800w, {{asset('/images/müze kopyası.jpg')}} 1080w, {{asset('/images/müze kopyası.jpg')}} 1600w, {{asset('/images/müze kopyası.jpg')}} 2000w, {{asset('/images/müze kopyası.jpg')}} 2240w"
+                         alt="Cherry blossom flowering" class="image">
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -5,13 +5,14 @@
 
 </head>
 <body>
+
 <section id="hero" class="section hero">
-    <div class="container">
-        <div id="w-node-_1c3f5317-6978-f762-5d5e-11f9b38a1988-039aea74"
+    <div class="container" id="welcome">
+        <div id="w-node-_1c3f5317-6978-f762-5d5e-11f9b38a1988-039aea74 "
              class="w-layout-layout hero-layout wf-layout-layout">
             <div id="w-node-_1c3f5317-6978-f762-5d5e-11f9b38a1989-039aea74" class="w-layout-cell cell">
                 <div class="embed-logo w-embed">
-                    <h1>Ender MERTER</h1>
+                    <h1 style="font-family: 'Arial', sans-serif">Ender MERTER</h1>
                 </div>
             </div>
             <div id="w-node-_9c45ac14-2f20-bee2-1046-42e8bb04c83c-039aea74" class="w-layout-cell">
@@ -26,7 +27,7 @@
             <div id="w-node-_0e444812-5834-3be4-ce4d-3f61c340088f-039aea74" class="w-layout-cell">
 
                 <img style="justify-content: center;align-items: center" loading="lazy"
-                     src="{{asset('/images/ana sayfa slider.jpg')}}" alt="Portrait of Japanese man on subway"
+                     src="{{asset('/images/mainPageSlider.jpg')}}" alt="Portrait of Japanese man on subway"
                      class="image hero">
 
 
@@ -54,6 +55,7 @@
     </div>
 </section>
 @include('about')
+@include('uyelıkler')
 @include('reklamarkasi')
 @include('footer.books')
 @include('footer')

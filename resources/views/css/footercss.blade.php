@@ -13,10 +13,12 @@
 <link href="{{asset('images/favicon.ico')}}" rel="shortcut icon" type="image/x-icon">
 <link href="{{asset('images/webclip.png')}}" rel="apple-touch-icon">
 <link href="{{asset('css/koseyazilar.css')}}" rel="stylesheet">
-<link href="{{asset('css/ihap-hulusi.css')}}" rel="stylesheet">
+
 <link href="{{asset('css/events.css')}}" rel="stylesheet">
 <link href="{{asset('css/contact.css')}}" rel="stylesheet">
 
+
+<link href="{{asset('css/medya.css')}}" rel="stylesheet">
 
 
 

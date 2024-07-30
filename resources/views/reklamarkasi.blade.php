@@ -5,7 +5,7 @@
                 <div id="w-node-dc9142ad-fd8f-804b-8301-d23c9adb34cd-039aea74" class="w-layout-cell description-cell right">
                     <h3 style="color: #efab10 ;font-size: xx-large"> Ender Merter ile Reklam Arkası</h3>
                     <div class="description">
-                        <span style="font-size:large">Reklam sektörünün 360 derece ele alındığı Reklamarkası; iletişim sektörüne destek olan, tüm branşları kucaklayan, sıcak, samimi ve gülen yüzlü duruşuyla 2011 yılından beri yayın hayatına devam ediyor. Ender Merter’in hazırlayıp sunduğu Reklamarkası; derneklerden, sivil toplum kuruluşlarından, mesleki kurumlardan, üniversitelerden, yarışma ve festivallerden aldığı ödüller ile 400 program boyunca işini başarıyla yapmanın gururunu yaşıyor. Sekiz yılda; 370’ten fazla marka ve 1700’den fazla konuğun ağırlandığı Ender Merter ile Reklamarkası sektörün nabzını tutmaya devam ediyor.</span>
+                        <span style="font-size:large;color: white">Reklam sektörünün 360 derece ele alındığı Reklamarkası; iletişim sektörüne destek olan, tüm branşları kucaklayan, sıcak, samimi ve gülen yüzlü duruşuyla 2011 yılından beri yayın hayatına devam ediyor. Ender Merter’in hazırlayıp sunduğu Reklamarkası; derneklerden, sivil toplum kuruluşlarından, mesleki kurumlardan, üniversitelerden, yarışma ve festivallerden aldığı ödüller ile 400 program boyunca işini başarıyla yapmanın gururunu yaşıyor. Sekiz yılda; 370’ten fazla marka ve 1700’den fazla konuğun ağırlandığı Ender Merter ile Reklamarkası sektörün nabzını tutmaya devam ediyor.</span>
                     </div>
 
                 </div>

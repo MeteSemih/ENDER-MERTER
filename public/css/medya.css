@@ -1,53 +1,44 @@
-/* Section stil ayarları */
-#case-study-1 {
-    padding: 60px 20px;
-    background-color: #f4f4f4;
-}
-
-/* Container stil ayarları */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-/* Gallery layout stil ayarları */
-.gallery-layout {
+/* Flexbox layout for the gallery */
+.gallery-layout-media {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: stretch; /* Make all items the same height */
+    justify-content: space-between; /* Space between items */
 }
 
-/* Layout cell stil ayarları */
-.w-layout-cell {
-    flex: 1;
-    min-width: 300px;
-    box-sizing: border-box;
+/* Styling for the description and image cells */
+.description-cell {
+    flex: 1; /* Allow the description cell to grow and set its own height */
+    padding-right: 20px; /* Add space between text and image */
 }
 
-/* Görsellerin stili */
-.w-layout-cell img {
+.w-layout-cell-media {
+    flex: 1; /* Make the image cell the same size as the description */
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom of the cell */
+    justify-content: space-between; /* Space images evenly */
+    padding: 10px; /* Optional: add padding around the image */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between images */
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    object-fit: cover;
 }
 
-/* Başlık stili */
-h3 {
-    font-size: 1.6em;
-    margin: 20px 0;
-    color: #333;
+.image-container img {
+    width: 49%; /* Set width to 49% to ensure they fit side by side */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without distortion */
+    border-radius: 10px; /* Optional: rounded corners */
 }
 
-/* Paragrafların liste şeklinde düzenlenmesi */
+/* Paragrafların stili */
 p {
     font-size: 1em;
-    color: #555;
+    color: #efebeb;
     margin: 0;
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
 }
 
 /* Son paragrafın alt kenar boşluğunu kaldır */
@@ -56,17 +47,41 @@ p:last-of-type {
     padding-bottom: 0;
 }
 
-/* Genel açıklama hücresi */
-.description-cell {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
+/* Responsive settings */
+@media (max-width: 768px) {
+    .gallery-layout-media {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description-cell {
+        padding-right: 0;
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .w-layout-cell-media {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .image-container {
+        flex-direction: column; /* Stack images vertically */
+    }
+
+    .image-container img {
+        margin: 10px 0; /* Space between images */
+        width: 90%; /* Make images wider for better visibility */
+        max-width: 90%;
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
-/* Medya Queries */
-@media (max-width: 768px) {
-    .gallery-layout {
-        flex-direction: column;
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
     }
 }
